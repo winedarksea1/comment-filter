@@ -1,0 +1,33 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/*CLEARFIX*/
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+/*^^CLEARFIX*/
+
+body {
+  background-color: #F0FFFF;
+}
+
+#all-comments-button {
+  background-color: #F08080;
+  color: white;
+  margin-left: 5px;
+}
+
+header h1 {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}

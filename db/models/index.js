@@ -6,7 +6,10 @@
 
 const User = require('./user')
 const OAuth = require('./oauth')
+const Comment = require('./comments');
 
 OAuth.belongsTo(User)
 User.hasOne(OAuth)
-module.exports = {User}
+User.hasMany(Comment);
+Comment.belongsTo(User);
+module.exports = {User, Comment}
