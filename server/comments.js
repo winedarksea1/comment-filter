@@ -8,4 +8,12 @@ router.get('/', function (req, res, next) {
   .catch(next);
 });
 
+router.get('/comment/:id', function (req, res, next) {
+  Comment.findOne({where: {
+    comment_id: req.params.id
+  }})
+  .then(comment => res.json(comment))
+  .catch(next);
+});
+
 module.exports = router;

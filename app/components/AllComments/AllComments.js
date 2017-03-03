@@ -12,7 +12,9 @@ export default (props) => (
       <div className="list-group" id="comment-list">
         {
           props.comments.data ? props.comments.data.map(comment => (
-            <div className="list-group-item" key={comment.comment_id}>{comment.message}</div>
+            <div className="comment-wrapper">
+              <div className="list-group-item" key={comment.comment_id}>{comment.message}</div>
+            </div>
           )) : (<p>No Comments</p>)
         }
       </div>
