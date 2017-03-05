@@ -1,4 +1,5 @@
 import { receiveComments } from './reducers/comments';
+//import { receiveComment } from './reducers/singleComment';
 import store from './store';
 import axios from 'axios';
 

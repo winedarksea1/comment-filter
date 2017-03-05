@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
   .catch(next);
 });
 
-router.get('/comment/:id', function (req, res, next) {
+router.get('/:id', function (req, res, next) {
   Comment.findOne({where: {
     comment_id: req.params.id
   }})

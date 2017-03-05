@@ -6,6 +6,9 @@ import AllCommentsContainer from './components/AllComments/AllCommentsContainer'
 import AllComments from './components/AllComments/AllComments';
 import Navbar from './components/Navbar/Navbar';
 import AppContainer from './components/App/AppContainer';
+import SingleCommentContainer from './components/SingleComment/SingleCommentContainer';
+import { onSingleCommentEnter } from './reducers/singleComment';
+import store from './store';
 /* -----------------    COMPONENT     ------------------ */
 
 
@@ -15,6 +18,7 @@ const Routes = ({ fetchInitialData }) => (
       <IndexRoute component={AllCommentsContainer} />
       <Route path="/navbar" component={Navbar} />
       <Route path="/AllComments" component={AllCommentsContainer} />
+      <Route path="/comments/:id" component={SingleCommentContainer} onEnter={onSingleCommentEnter} />
     </Route>
   </Router>
 );

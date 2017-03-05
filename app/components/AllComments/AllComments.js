@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default (props) => (
   <div>
@@ -12,8 +13,12 @@ export default (props) => (
       <div className="list-group" id="comment-list">
         {
           props.comments.data ? props.comments.data.map(comment => (
-            <div className="comment-wrapper">
-              <div className="list-group-item" key={comment.comment_id}>{comment.message}</div>
+            <div className="wrapper" key={comment.comment_id}>
+              <Link to={`/comments/${comment.comment_id}`}>
+                <div className="comment-wrapper">
+                  <div className="list-group-item">{comment.message}</div>
+                </div>
+              </Link>
             </div>
           )) : (<p>No Comments</p>)
         }

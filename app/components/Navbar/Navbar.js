@@ -9,10 +9,10 @@ export default class Navbar extends React.Component {
     render() {
       return (
         <div>
-          <nav id="navbar" class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">WebSiteName</a>
+          <nav id="navbar" className="navbar navbar-default">
+            <div className="container-fluid">
+              <div className="navbar-header">
+                <a className="navbar-brand" href="#">WebSiteName</a>
               </div>
             </div>
           </nav>
