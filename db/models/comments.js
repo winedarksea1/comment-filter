@@ -7,7 +7,8 @@ sender_id: {
 },
 comment_id: {
   type: Sequelize.STRING,
-  primaryKey: true
+  primaryKey: true,
+  allowNull: true
 },
 message: {
   type: Sequelize.TEXT

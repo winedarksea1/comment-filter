@@ -62,4 +62,4 @@ db.didSync
   .then(users => console.log(`Seeded ${users.length} users OK`))
   .then(seedComments)
   .catch(error => console.error(error))
-  .finally(() => db.close())
+  //.finally(() => db.close())
