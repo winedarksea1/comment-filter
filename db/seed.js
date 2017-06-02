@@ -14,7 +14,7 @@ var comments = [
   {
     "sender_id": "10210541522126373",
     "comment_id": "10154016990846582_10154019199571514",
-    "message": "Trump is an idiot!.",
+    "message": "Trump is a coward!!.",
     "parent_id": "31989341581_10154016990846532",
     "verb": "add",
     "post_id": "31989341581_10154016990846534",
@@ -23,7 +23,7 @@ var comments = [
   {
     "sender_id": "10210541522126354",
     "comment_id": "10154016990846582_10154019199571565",
-    "message": "Shut your fucking face cuckface. Libtard!!",
+    "message": "Let's just move the headquarters of Goldman Sachs into the White House!!",
     "parent_id": "31989341581_10154016990846575",
     "verb": "add",
     "post_id": "31989341581_10154016990846511",
@@ -32,7 +32,7 @@ var comments = [
   {
     "sender_id": "10210541522126123",
     "comment_id": "10154016990846582_10154019199574321",
-    "message": "I think Trump is a douche knob!",
+    "message": "Does Jared Kushner ever speak?",
     "parent_id": "31989341581_1015401699011111",
     "verb": "add",
     "post_id": "31989341581_10154016990846490",
@@ -41,7 +41,7 @@ var comments = [
   {
     "sender_id": "102105415221260999",
     "comment_id": "10154016990846582_10154019199575943",
-    "message": "TRUMP NATION!! WHITES ONLY!!",
+    "message": "Make America Great Again",
     "parent_id": "31989341581_1015401699022223",
     "verb": "add",
     "post_id": "31989341581_10154016990860943",
