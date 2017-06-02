@@ -9,7 +9,6 @@ export default (props) => (
 
     <div className="main-content">
       <h3>Comments</h3>
-      <button type="button" className="btn btn-secondary btn-xs" id="all-comments-button">Get All Comments</button>
       <div className="list-group" id="comment-list">
         {
           props.comments.data ? props.comments.data.map(comment => (

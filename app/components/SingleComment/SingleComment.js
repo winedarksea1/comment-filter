@@ -1,8 +1,14 @@
 import React from 'react';
 
-export default (props) => (
+export default (props) => {
+  let styleObj = {
+    backgroundColor: "white",
+    width: "50%",
+    marginLeft: "5%"
+  };
+  return (
   <div>
-    <h1>Hello</h1>
-    <p>{props.singleComment.message}</p>
+    <p style={styleObj}>{props.singleComment.message}</p>
   </div>
 )
+}
